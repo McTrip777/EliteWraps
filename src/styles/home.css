@@ -1,0 +1,40 @@
+.homeContainer{
+    width: 100vw;
+    background-color: #ebebeb;
+    margin-top: 8em;
+}
+.homeContainer .head{
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.homeContainer .head .headTitle{
+    font-size: 4em;
+    font-weight:900;
+    font-family:Arial, Helvetica, sans-serif
+}
+.homeContainer .head .titleButton{
+
+}
+.homeContainer .about{
+
+}
+.homeContainer .about .aboutEW{
+
+}
+.homeContainer .about .aboutText{
+    color: black;
+}
+
+@media(max-width: 800px){
+
+}
+@media(max-height: 560px){
+
+}
+@media(max-width: 540px){
+
+}
