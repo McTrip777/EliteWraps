@@ -1,4 +1,7 @@
-.App {
+.container {
   text-align: center;
+}
+.container .routes{
+  margin-top: 7em;
 }
 

@@ -1,11 +1,24 @@
-import './App.css';
-
-function App() {
+import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+// import Canvas from './components/Canvas'
+import Contact from './components/Contact'
+// import Gallery from './components/Gallery'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+// import Footer from './components/Footer'
+// import { FormspreeProvider } from '@formspree/react';
+import "./App.css"
+const App = () => {
   return (
-    <div className="App">
-
+    <div className="container">
+      <Navbar />
+      <Routes className="routes">
+        <Route path="/contact" element={<Contact/>} />
+        {/* <Route path="/gallery" component={Gallery} /> */}
+        <Route path="/" element={<Home/>} />
+      </Routes>
+      {/* <Footer /> */}
     </div>
-  );
+  )
 }
-
-export default App;
+export default App
