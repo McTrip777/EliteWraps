@@ -2,14 +2,15 @@ import React from 'react'
 // import Carousel from './Carousel'
 import { Link } from 'react-router-dom'
 import "../styles/home.css"
+import mustang from '../images/mustangWrap.jpeg'
 
 const Home = () => {
     return (
         <div className="homeContainer">
             <header className="head">
+                <img src={mustang} alt="ford mustang wrap" />
                 <h2 className="headTitle">Elite Wraps</h2>
                 <Link to="/contact" className="titleButton" >Get a Quote</Link>
-                {/* <Carousel /> */}
             </header>
             <section className="about">
                 <h4 className="aboutEW">About Us</h4>
