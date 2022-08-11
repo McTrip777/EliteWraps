@@ -1,7 +1,7 @@
 .navbar{
     padding:.8em;
     /* background: rgba(68, 68, 68, .8); */
-    background: rgb(0, 0, 0);
+    background: black;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -18,7 +18,7 @@
 .navbar2{
     padding:.8em;
     /* background: rgba(68, 68, 68, .8); */
-    background: rgb(0, 0, 0);
+    background: black;
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -46,7 +46,16 @@ a img{
 .navbarRoutes a{
     text-decoration: none;
     font-size: 1.2em;
+    padding: .5em;
     color:white;
+}
+.navbarRoutes a:hover{
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: .5em;
+    color:black;
+    background-color: #00a2ff;
+    border-radius: 10%;
 }
 
 

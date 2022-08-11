@@ -53,7 +53,7 @@ form{
     color: white;
 }
 .nameNumber:focus {
-    outline: 2px solid #046804;
+    outline: 2px solid #00a2ff;
 }
 .nameAndNumber .name{
     margin-right: 1em;
@@ -79,7 +79,7 @@ form{
     color: white;
 }
 .subMessage:focus {
-    outline: 2px solid #046804;
+    outline: 2px solid #00a2ff;
 }
 .email{
     margin:0 0 2em 0;
@@ -95,8 +95,8 @@ form{
     border-radius: 5px;
 }
 .btnOne:hover{
-    background: #046804;
-    color: white;
+    background: #00a2ff;
+    /* color: black; */
 }
 
 /* Successful Form Styles */

@@ -1,30 +1,29 @@
 .homeContainer{
-    width: 100vw;
-    height: 100vh;
-    margin-top: 8em;
+    margin-top: 5em;
+    position: relative;
 }
 .homeContainer .head{
-    height: 100%;
-    align-items: center;
-    position: relative;
+    width:100%;
+    position: absolute;
+    top:20em;
 }
 .homeContainer img{
     width:100%;
-    position: absolute;
     top:0;
     left:0;
     z-index: -1;
 }
 .homeContainer .head .headTitle{
+    width: 100%;
     color: black;
     text-shadow: 0 0 10px white;
     font-family: 'Teko', sans-serif;
     font-weight: 700;
-    font-size: 6em;
+    font-size: 5em;
     text-align: center;  
     position: absolute;
     z-index: 10;  
-    top: 17%;
+    top: 0%;
     left:50%;
     transform: translate(-50%, -50%);
 }
@@ -37,26 +36,57 @@
     user-select: none;
     position: absolute;
     z-index: 10;
-    top: 25%;
-    left:50%;
     transform: translate(-50%, -50%);
     text-decoration: none;
     color: white;
-    text-shadow: 0 0 5px #3c3c44;
+    margin-top: 3em;
 }
 .homeContainer .head .titleButton:hover{
     background-color: blue;
 }
+/* @media(max-width: 1200px){
+    
+} */
+@media(max-width: 800px){
+    .homeContainer .head{
+
+        top:10em;
+    }
+    .homeContainer img{
+
+    }
+    .homeContainer .head .headTitle{
+        font-size: 4em;
+    }
+    .homeContainer .head .titleButton{
+        padding: .5em 1em;
+        font-size: 1.2em;
+    }
+}
+@media(max-width: 560px){
+    .homeContainer .head .headTitle{
+        font-size: 2.5em;
+    }
+    .homeContainer .head .titleButton{
+        padding: .4em .8em;
+        font-size: 1em;
+    }
+}
+
+/*--------------- ABOUT ---------------*/
 .homeContainer .about{
-    position: relative;
+    padding: 3em;
 }
 .homeContainer .about .aboutEW{
-
+    font-size: 3em;
 }
 .homeContainer .about .aboutText{
-    color: black;
-}
+    font-size: 1.6em;
 
+}
+@media(max-width: 1200px){
+
+}
 @media(max-width: 800px){
 
 }

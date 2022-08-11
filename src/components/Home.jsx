@@ -7,8 +7,8 @@ import mustang from '../images/mustangWrap.jpeg'
 const Home = () => {
     return (
         <div className="homeContainer">
+            <img src={mustang} alt="ford mustang wrap" />
             <header className="head">
-                <img src={mustang} alt="ford mustang wrap" />
                 <h2 className="headTitle">Elite Wraps</h2>
                 <Link to="/contact" className="titleButton" >Get a Quote</Link>
             </header>
