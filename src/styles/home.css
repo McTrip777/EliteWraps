@@ -1,7 +1,7 @@
 .homeContainer{
     margin-top: 7em;
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--black);
 }
 .homeContainer .head{
     width:100%;
@@ -89,7 +89,6 @@
     background-color: var(--black);
     font-family: 'Righteous', cursive;
     line-height: 40px;
-    border-bottom: 3px solid var(--blue);
 }
 .homeContainer .text .title{
     font-size: 3em;

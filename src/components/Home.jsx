@@ -20,9 +20,7 @@ const Home = () => {
                 the best experience and quality service. We pride ourselves on honesty and integity 
                 with every job.</p>
             </section>
-            <section>
-                <Carousel/>
-            </section>
+            <Carousel/>
             <section className='wrapInfo text'>
                 <h4 className="q1 title">So why get a wrap?</h4>
                 <p className="a1 content">Well, if you are a company 
