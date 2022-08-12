@@ -23,17 +23,17 @@ const Carousel = () => {
 
     if (!Array.isArray(CarouselImages) || CarouselImages.length <= 0) return null
 
+    document.querySelector("slide")
+
     return (
         <section className="slider">
-            {/* <FaArrowAltCircleLeft className="leftArrow arrow" onClick={prevSlide} /> */}
-            {CarouselImages.map((slide, index) => {
+            {CarouselImages.map((slide, index) => { 
                 return (
                     <div className={index === current ? "slide active" : "slide"} key={index}>
                         {index === current && (<img src={slide.image} alt="Display Vehicles" className="img" />)}
                     </div>
                 )
             })}
-            {/* <FaArrowAltCircleRight className="rightArrow arrow" onClick={nextSlide} /> */}
 
         </section>
     )
