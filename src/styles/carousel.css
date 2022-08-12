@@ -23,21 +23,15 @@
 }
 @media (max-width: 800px) {
   .slider {
-    /* display: flex;
+        display: flex;
         justify-content: center;
         align-items: center;
-        max-height: 100vh;
-        min-height: 100vh;
-        position: absolute;
-        z-index: -10; */
-  }
+    }
   .slider .slide {
     /* position: absolute; */
     /* z-index: -100; */
     /* width: 100vw; */
     /* opacity: 0; */
-    max-height: 95%;
-    height: 60vh;
   }
   .slider .slide img {
     width: 100vw;

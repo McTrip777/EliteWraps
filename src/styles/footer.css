@@ -1,0 +1,101 @@
+.footerContainer{
+    position: absolute;
+}
+.footerContainer .footer{
+    background-color:rgb(68, 68, 68);
+    display: flex;
+    justify-content: space-evenly;
+    width:100vw;
+    color:white;
+    padding-bottom: 3em;
+    /* margin-top: 40em; */
+}
+.footerContainer .footer .foo{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width:21%;
+    margin-top: 3em;
+    border-top: 2px solid var(--blue);
+    padding-top: 2em;
+    box-sizing: border-box;
+}
+.footerContainer .footer .footerLinks a{
+    margin:.5em 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    text-decoration: none;
+    color:var(--blue);
+}
+.footerContainer .footer .footerContact{
+    display: flex;
+    align-items: center;
+}
+.footerContainer .footer .footerContact h4{
+    margin:.5em 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    color:var(--blue);
+}
+.footerContainer .footer .footerContact .number{
+    margin:.5em 0;
+    color: white;
+    text-decoration: none;
+}
+.footerContainer .footer .footerContact .email{
+    color: white;
+    margin:.5em 0;
+    text-decoration: none;
+}
+.footerContainer .footer .footerContact .socials i{
+    color:var(--blue);
+    margin:1em;
+}
+.footerContainer .footer .footerContact .socials a{
+    color:var(--blue);
+}
+.footerContainer .footer .footerContact .RequestAQuote{
+    margin:.5em 0;
+    cursor: pointer;
+    color: white;
+}
+.footerContainer .footer .footerAbout h4{
+    margin:.5em 0;
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    color:var(--blue);
+}
+.footerContainer .footer .footerAbout p{
+    margin:.5em 0;
+    line-height: 30px;
+}
+
+@media(max-width: 830px){
+    .footerContainer .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+    }
+    .footerContainer .footer .foo{
+        align-items: center;
+        width:90%;
+    }
+    .footerContainer .footer .footerContact .socials{
+        width:50%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .footerContainer .footer .footerContact .socials a{
+        margin: 0;
+    }
+}
+.footerContainer .copyright{
+    display: flex;
+    padding:1em 0;
+    margin-left: 10%;
+}
