@@ -19,7 +19,7 @@ const Carousel = () => {
         setTimeout(() => {
             nextSlide()
         }, 10000)
-    }, [current])
+    }, [current, nextSlide])
 
     if (!Array.isArray(CarouselImages) || CarouselImages.length <= 0) return null
 
