@@ -2,7 +2,7 @@
     padding-top: 8em;
     height: 80vh;
     position: relative;
-    background-color: var(--blue);
+    background-color: var(--darkblue);
 }
 .galleryContainer .titleSection {
     display: flex;
