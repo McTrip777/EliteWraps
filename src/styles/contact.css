@@ -7,14 +7,14 @@ form{
     justify-content: center;
     align-items: center;
     min-height:56.8vh;
-    background: #636363;
+    background: var(--black);
 }
 .contactHeader{
     display: flex;
     flex-direction: column;
     align-items: center;
     
-    color: white;
+    color: var(--darkblue);
 }
 .contactHeader h2{
     font-size: 3em;
@@ -23,7 +23,7 @@ form{
 .contactHeader p{
     font-size: 2em;
     padding-bottom: 1em;
-    color: white;
+    color: var(--darkblue);
 }
 .row{
     display: flex;
@@ -46,14 +46,14 @@ form{
     padding:1em;
     width:100%;
     background-color: rgba(68,68,68, .9);
-    color: white;
+    color: var(--blue);
     margin:0 0 2em 0;
 }
 .nameNumber::placeholder {
-    color: white;
+    color: var(--blue);
 }
 .nameNumber:focus {
-    outline: 2px solid #00a2ff;
+    outline: 2px solid var(--blue);
 }
 .nameAndNumber .name{
     margin-right: 1em;
@@ -73,13 +73,13 @@ form{
     width:100%;
     padding:1em;
     background-color: rgba(68,68,68, .9);
-    color: white;
+    color: var(--blue);
 }
 .subMessage::placeholder {
-    color: white;
+    color: var(--blue);
 }
 .subMessage:focus {
-    outline: 2px solid #00a2ff;
+    outline: 2px solid var(--blue);
 }
 .email{
     margin:0 0 2em 0;
@@ -93,10 +93,21 @@ form{
     margin:1em;
     padding:1em 2em;
     border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    background-color: var(--black);
+    border: 2px solid var(--white);
 }
 .btnOne:hover{
-    background: #00a2ff;
-    /* color: black; */
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    box-shadow: -3px -3px 5px var(--blue), 
+    3px 3px 5px var(--blue), 
+    3px -3px 5px var(--blue), 
+    -3px 3px 5px var(--blue);
 }
 
 /* Successful Form Styles */
@@ -115,7 +126,7 @@ form{
     margin: 3em 1em 1em 1em;
 }
 .SuccessfulForm .number{
-    color:#046804;
+    color:#008a00;
     font-size: 2.5em;
     cursor: pointer;
 }

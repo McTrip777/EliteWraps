@@ -10,7 +10,7 @@
     max-height: 8em;
     box-sizing: border-box;
     z-index: 100;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--blue);
     position: fixed;
     top:0;
     left:0;
@@ -27,8 +27,8 @@
     max-height: 8em;
     box-sizing: border-box;
     z-index: 100;
-    border-bottom: 1px solid white;
-    position: fixed;
+    border-bottom: 1px solid var(--blue);
+    position: fixed; 
     top:0;
     left:0;
     opacity: .7;

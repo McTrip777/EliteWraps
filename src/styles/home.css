@@ -1,6 +1,7 @@
 .homeContainer{
     margin-top: 5em;
     position: relative;
+    background-color: var(--blue);
 }
 .homeContainer .head{
     width:100%;
@@ -15,9 +16,13 @@
 }
 .homeContainer .head .headTitle{
     width: 100%;
-    color: black;
-    text-shadow: 0 0 10px white;
-    font-family: 'Teko', sans-serif;
+    color: white;
+    text-shadow: 
+    -3px -3px 5px var(--blue), 
+    3px 3px 5px var(--blue), 
+    3px -3px 5px var(--blue), 
+    -3px 3px 5px var(--blue);
+    font-family: 'Oleo Script Swash Caps', cursive;
     font-weight: 700;
     font-size: 5em;
     text-align: center;  
@@ -31,7 +36,6 @@
     padding: .5em 1.2em;
     font-size: 1.6em;
     cursor: pointer;
-    border: 2px solid #3c3c44;
     border-radius: 5px;
     user-select: none;
     position: absolute;
@@ -40,16 +44,22 @@
     text-decoration: none;
     color: white;
     margin-top: 3em;
+    background-color: var(--black);
+    border: 2px solid var(--white);
 }
 .homeContainer .head .titleButton:hover{
-    background-color: blue;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    box-shadow: -3px -3px 5px var(--blue), 
+    3px 3px 5px var(--blue), 
+    3px -3px 5px var(--blue), 
+    -3px 3px 5px var(--blue);
 }
 /* @media(max-width: 1200px){
     
 } */
 @media(max-width: 800px){
     .homeContainer .head{
-
         top:10em;
     }
     .homeContainer img{
@@ -74,24 +84,43 @@
 }
 
 /*--------------- ABOUT ---------------*/
-.homeContainer .about{
+.homeContainer .text{
     padding: 3em;
+    background-color: var(--black);
+    font-family: 'Righteous', cursive;
+    line-height: 40px;
+    border-bottom: 3px solid var(--blue);
 }
-.homeContainer .about .aboutEW{
+.homeContainer .text .title{
     font-size: 3em;
+    padding: 1em;
+    color: var(--darkblue);
 }
-.homeContainer .about .aboutText{
+.homeContainer .text .content{
     font-size: 1.6em;
-
+    color: var(--darkblue);
+    padding: .5em 1em;
 }
+
 @media(max-width: 1200px){
 
 }
 @media(max-width: 800px){
-
+    .homeContainer .text{
+        line-height: 30px;
+        padding: 2em;
+    }
+    .homeContainer .text .title{
+        font-size: 2em;
+    }
+    .homeContainer .text .content{
+        font-size: 1.2em;
+    }
 }
-@media(max-height: 560px){
-
+@media(max-width: 560px){
+    .homeContainer .about{
+        padding: 1em;
+    }
 }
 @media(max-width: 540px){
 
