@@ -63,7 +63,6 @@ a img{
 @media (max-width:800px){
     .navbar{
         flex-direction: column;
-        align-items: center;
         padding:.3em;
     }
     .navbar2{
@@ -78,6 +77,11 @@ a img{
         width:100%;
     }
     .navbarRoutes a{
+        font-size: 1em;
+        padding: .3em;
+    }
+    .navbarRoutes a:hover{
+        padding: .3em;
         font-size: 1em;
     }
 }
