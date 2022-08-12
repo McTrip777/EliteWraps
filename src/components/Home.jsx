@@ -3,6 +3,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import "../styles/home.css"
 import mustang from '../images/mustangWrap.jpeg'
+import Carousel from './Carousel'
 
 const Home = () => {
     return (
@@ -12,16 +13,25 @@ const Home = () => {
                 <h2 className="headTitle">Elite Wraps</h2>
                 <Link to="/contact" className="titleButton" >Get a Quote</Link>
             </header>
-            <section className="about">
-                <h4 className="aboutEW">About Us</h4>
-                <p className="aboutText">Here at Elite Wraps, we provide large 
-                format prints for vinyl wraps of all kinds. Wraps can serve multiple 
-                purposes. It can be used to advertise and brand your business, attracting 
-                more customers, or simply to please the eye of the viewer. Our team can 
-                accomplish any task you desire in a wrap as we provide the graphics, 
-                fabrication, and installation for wraps of all kinds. We also provide color 
-                wraps of your choice for your vehicle. We do everything in-house and bring 
-                decades of experience to every job.</p>
+            <section className="about text">
+                <h4 className="aboutEW title">Why Us?</h4>
+                <p className="aboutText content">We are a local, family owned and operated business with decades 
+                of joint experience. We can assure you that you will receive nothing but 
+                the best experience and quality service. We pride ourselves on honesty and integity 
+                with every job.</p>
+            </section>
+            <section>
+                <Carousel/>
+            </section>
+            <section className='wrapInfo text'>
+                <h4 className="q1 title">So why get a wrap?</h4>
+                <p className="a1 content">Well, if you are a company 
+                trying to get eyes on your services or just trying 
+                to get your name out there, it is proven that vehicle 
+                wraps give you the biggest bang for your buck when it comes to advertising. <br/>
+                If you are looking for something personal and want to show off your ride, we have 
+                you covered as well. Color wraps and designs come in 
+                all shapes and sizes and will be turning heads without a doubt. They are also a great alternative to an expensive paint job.</p>
             </section>
 
         </div>
@@ -29,3 +39,5 @@ const Home = () => {
 }
 
 export default Home
+
+ 

@@ -53,3 +53,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root {
+  --blue: #2BACE2;
+  --lightblue: #86dbff;
+  --darkblue: #1c6a8c;
+  --white: #ffffff;
+  --black: #090909;
+}
