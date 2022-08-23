@@ -1,0 +1,132 @@
+form{
+    padding-top:10em;
+    width:100vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height:56.8vh;
+    background: var(--black);
+}
+.contactHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: var(--darkblue);
+}
+.contactHeader h2{
+    font-size: 3em;
+    padding:1em 0;
+}
+.contactHeader p{
+    font-size: 2em;
+    padding-bottom: 1em;
+    color: var(--darkblue);
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+}
+.nameAndNumber{
+    display: flex;
+    width:100%;
+    position: relative;
+}
+.nameAndNumber p{
+    color: rgb(128, 0, 0);
+    font-size: 1.5em;
+    position: absolute;
+    left: -10px;
+}
+.nameAndNumber .nameNumber{
+    padding:1em;
+    width:100%;
+    background-color: rgba(68,68,68, .9);
+    color: var(--blue);
+    margin:0 0 2em 0;
+}
+.nameNumber::placeholder {
+    color: var(--blue);
+}
+.nameNumber:focus {
+    outline: 2px solid var(--blue);
+}
+.nameAndNumber .name{
+    margin-right: 1em;
+}
+.emailMessage{
+    position: relative;
+    width: 100%;
+}
+/* p{
+    color: rgb(128, 0, 0);
+    font-size: 1.5em;
+    position: absolute;
+    left: -10px;
+} */
+.subMessage{
+    box-sizing: border-box;
+    width:100%;
+    padding:1em;
+    background-color: rgba(68,68,68, .9);
+    color: var(--blue);
+}
+.subMessage::placeholder {
+    color: var(--blue);
+}
+.subMessage:focus {
+    outline: 2px solid var(--blue);
+}
+.email{
+    margin:0 0 2em 0;
+}
+.buttons{
+    width:80%;
+    display: flex;
+    justify-content: center;
+}
+.btnOne{
+    margin:1em;
+    padding:1em 2em;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    user-select: none;
+    text-decoration: none;
+    color: white;
+    background-color: var(--black);
+    border: 2px solid var(--white);
+}
+.btnOne:hover{
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    box-shadow: -3px -3px 5px var(--blue), 
+    3px 3px 5px var(--blue), 
+    3px -3px 5px var(--blue), 
+    -3px 3px 5px var(--blue);
+}
+
+/* Successful Form Styles */
+
+.SuccessfulForm{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.SuccessfulForm p{
+    color: black;
+    font-size: 2em;
+    margin: 3em 1em 1em 1em;
+}
+.SuccessfulForm .number{
+    color:#008a00;
+    font-size: 2.5em;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.galleryContainer{
+    padding-top: 8em;
+    height: 80vh;
+    position: relative;
+    background-color: var(--darkblue);
+}
+.galleryContainer .titleSection {
+    display: flex;
+    justify-content: center;
+
+}
+.galleryContainer .titleSection h4{
+    font-size: 5em;
+    padding-top: 3em;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: var(--white);
+}
