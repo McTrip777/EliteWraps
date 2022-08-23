@@ -1,7 +1,7 @@
 {
   "name": "elitewrapsfrontend",
   "version": "0.1.0",
-  "homepage": "https://mctrip777.github.io/react-gh-pages",
+  "homepage": "https://mctrip777.github.io/elitewrapsfrontend",
   "private": true,
   "dependencies": {
     "@formspree/react": "^2.2.3",
@@ -17,11 +17,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
