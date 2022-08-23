@@ -29,7 +29,7 @@ const Home = () => {
                 wraps give you the biggest bang for your buck when it comes to advertising. <br/>
                 If you are looking for something personal and want to show off your ride, we have 
                 you covered as well. Color wraps and designs come in 
-                all shapes and sizes and will be turning heads without a doubt. They are also a great alternative to an expensive paint job.</p>
+                all shapes and sizes and will be turning heads without a doubt.</p>
             </section>
 
         </div>
