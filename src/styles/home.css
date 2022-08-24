@@ -14,7 +14,7 @@
     left:0;
     z-index: -1;
 }
-.homeContainer .head .headTitle{
+/* .homeContainer .head .headTitle{
     width: 100%;
     color: white;
     text-shadow: 
@@ -31,6 +31,14 @@
     top: 0%;
     left:50%;
     transform: translate(-50%, -50%);
+} */
+.homeContainer .head .headImg{
+    width:50%;
+    position: absolute;
+    z-index: 10;  
+    top: 0%;
+    left:50%;
+    transform: translate(-50%, -75%);
 }
 .homeContainer .head .titleButton{
     padding: .5em 1.2em;
@@ -40,7 +48,7 @@
     user-select: none;
     position: absolute;
     z-index: 10;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -35%);
     text-decoration: none;
     color: white;
     margin-top: 3em;

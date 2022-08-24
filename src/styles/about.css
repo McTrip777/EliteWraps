@@ -1,0 +1,11 @@
+.aboutContainer{
+    margin-top: 6em;
+    position: relative;
+    background-color: var(--black);
+    padding: 2em 0 6em 0;
+}
+.aboutContainer .aboutTitle{
+    font-size: 3em;
+    color: var(--lightblue);
+    padding:1em;
+}

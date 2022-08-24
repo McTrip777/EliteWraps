@@ -31,6 +31,7 @@ function Navbar() {
             <div className="navbarRoutes">
                 <Link to="/">Home</Link>
                 <Link to="/gallery">Gallery</Link>
+                <Link to="/about">About</Link>
                 <Link to="/contact">Contact</Link>
             </div>
         </div>

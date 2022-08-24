@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom'
 import "../styles/home.css"
 import mustang from '../images/mustangWrap.jpeg'
 import Carousel from './Carousel'
+import logo from '../images/EliteWrapsLogoBlur.png'
 
 const Home = () => {
     return (
         <div className="homeContainer">
             <img src={mustang} alt="ford mustang wrap" />
             <header className="head">
-                <h2 className="headTitle">Elite Wraps</h2>
+                {/* <h2 className="headTitle">Elite Wraps</h2> */}
+                <img className='headImg' src={logo} alt="Elite Wraps Logo"/>
                 <Link to="/contact" className="titleButton" >Get a Quote</Link>
             </header>
             <section className="about text">

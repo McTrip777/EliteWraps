@@ -1,0 +1,19 @@
+.faq{
+    color: var(--lightblue);
+    padding: 0 10%;
+    
+}
+.faq .faqTitle{
+    font-size: 2em;
+    display: flex;
+    padding: .5em 0;
+    color: var(--darkblue);
+}
+.faq .faqContent{
+    text-align: left;
+    text-indent: 3em;
+    border-bottom: 2px dotted;
+    border-left: 2px dotted;
+    padding:1em;
+    line-height: 1.5em;
+}

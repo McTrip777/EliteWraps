@@ -6,6 +6,7 @@ import Gallery from './components/Gallery'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Footer from './components/Footer'
+import About from './components/About'
 // import { FormspreeProvider } from '@formspree/react';
 import "./App.css"
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Routes className="routes">
         <Route path="/contact" element={<Contact/>} />
         <Route path="/gallery" element={<Gallery/>} />
+        <Route path="/about" element={<About/>} />
         <Route path="/" element={<Home/>} />
       </Routes>
       <Footer />
