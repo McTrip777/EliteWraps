@@ -1,5 +1,5 @@
 .footerContainer{
-    position: absolute;
+    position: relative;
 }
 .footerContainer .footer{
     background-color:rgb(68, 68, 68);
