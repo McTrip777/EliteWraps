@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Images } from './ImgData'
 import "../styles/gallery.css"
+import BackToTop from './BackToTop'
 
 const Gallery = () => {
 
@@ -15,6 +16,7 @@ const Gallery = () => {
 
     return (
         <div className="galleryContainer">
+          <BackToTop/>
             <div className="gallerySort">
                 <section className={type === 'All' ? "buttonSelect active" : "buttonSelect"} onClick={setToAll}>
                     <button className="allText">All</button>

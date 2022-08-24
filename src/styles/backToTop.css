@@ -1,0 +1,14 @@
+.buttonContainer{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    padding: 0;
+}
+.buttonContainer .backToTop{
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: var(--blue);
+    cursor: pointer;
+    padding: none;
+}
