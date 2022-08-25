@@ -1,5 +1,5 @@
 .galleryContainer{
-    /* width: 100vw; */
+    width: 100vw;
     padding-top: 6em;
     /* min-height: 80vh; */
     /* position: relative; */
@@ -47,4 +47,9 @@
 }
 .galleryImg .img{
     width: 100vw;
+}
+@media(max-width: 800px){
+    .galleryContainer .gallerySort{
+        font-size: .8em;
+    }
 }
