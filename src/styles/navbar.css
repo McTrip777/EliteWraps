@@ -1,11 +1,11 @@
 .navbar{
-    padding:1em;
+    padding:1em 0;
     /* background: rgba(68, 68, 68, .8); */
     background: black;
     display: flex;
     justify-content: space-between;
     position: fixed;
-    width: 100vw;
+    width: 100%;
     min-height: 8em;
     max-height: 8em;
     box-sizing: border-box;
@@ -16,7 +16,7 @@
     left:0;
 }
 .navbar2{
-    padding:.8em;
+    padding:.8em 0;
     /* background: rgba(68, 68, 68, .8); */
     background: black;
     display: flex;
