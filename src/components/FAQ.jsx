@@ -4,7 +4,7 @@ import { FaqData } from './FAQData'
 
 const FAQ = () => {
   return (
-    <div>
+    <div className='faqContainer'>
         {FaqData.map((faq, index) => {
             return (
                 <div className="faq" key={index}>

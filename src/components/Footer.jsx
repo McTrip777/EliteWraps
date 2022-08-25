@@ -9,6 +9,7 @@ function Footer() {
                 <div className="foo footerLinks">
                     <Link to="/">Home</Link>
                     <Link to="/gallery">Gallery</Link>
+                    <Link to="/about">About</Link>
                     <Link to="/contact">Contact</Link>
                 </div>
                 <div className="foo footerContact">

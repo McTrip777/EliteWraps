@@ -1,7 +1,8 @@
+.faqContainer{
+    padding-bottom: 5em;
+}
 .faq{
     color: var(--lightblue);
-    padding: 0 10%;
-    
 }
 .faq .faqTitle{
     font-size: 2em;
