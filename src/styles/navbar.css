@@ -1,5 +1,5 @@
 .navbar{
-    padding:.8em;
+    padding:1em;
     /* background: rgba(68, 68, 68, .8); */
     background: black;
     display: flex;
@@ -33,9 +33,15 @@
     left:0;
     opacity: .7;
 }
+.homeLogo{
+    display: flex;
+    align-self: center;
+}
 a img{
     /* margin:2em 0 2em 2em  */
-    height: 7em;
+    height: 4em;
+    display: flex;
+    align-items: center;
 }
 .navbarRoutes{
     width: 60%;
@@ -71,7 +77,8 @@ a img{
         padding:.3em;
     }
     a img{
-        height: 5em;
+        height: 3.5em;
+        padding: 1em 0 .5em;
     }
     .navbarRoutes{
         width:100%;
