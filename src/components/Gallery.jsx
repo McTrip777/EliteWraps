@@ -31,7 +31,7 @@ const Gallery = () => {
                     {type === "Wall" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
                 </section>
                 <section className={type === 'Color' ? "buttonSelect active" : "buttonSelect"} onClick={setToColor}>
-                    <button className="colorText">Color</button>
+                    <button className="colorText">Personal</button>
                     {type === "Color" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
                 </section>
             </div>

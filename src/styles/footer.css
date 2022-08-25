@@ -1,5 +1,6 @@
 .footerContainer{
     position: relative;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footerContainer .footer{
     background-color:rgb(68, 68, 68);

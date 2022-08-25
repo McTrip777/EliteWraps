@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import "../styles/home.css"
 import mustang from '../images/mustangWrap.jpeg'
 import Carousel from './Carousel'
-import logo from '../images/EliteWrapsLogoBlur.png'
+import logo from '../images/LogoBlack.png'
 
 const Home = () => {
     return (
@@ -25,13 +25,7 @@ const Home = () => {
             <Carousel/>
             <section className='wrapInfo text'>
                 <h4 className="q1 title">So why get a wrap?</h4>
-                <p className="a1 content">Well, if you are a company 
-                trying to get eyes on your services or just trying 
-                to get your name out there, it is proven that vehicle 
-                wraps give you the biggest bang for your buck when it comes to advertising. <br/>
-                If you are looking for something personal and want to show off your ride, we have 
-                you covered as well. Color wraps and designs come in 
-                all shapes and sizes and will be turning heads without a doubt.</p>
+                <p className="a1 content"></p>
             </section>
 
         </div>
