@@ -2,6 +2,7 @@
   text-align: center;
   font-family: 'Righteous', cursive;
   /* height: 200vh; */
+  width: 100vw;
 }
 .container .routes{
   margin-top: 7em;
