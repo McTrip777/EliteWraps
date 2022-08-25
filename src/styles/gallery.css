@@ -1,10 +1,10 @@
 .galleryContainer{
-    width: 100%;
+    width: 100vw;
     padding-top: 6em;
-    min-height: 80vh;
-    position: relative;
+    /* min-height: 80vh; */
+    /* position: relative; */
     background-color: var(--darkblue);
-    text-align: center;
+    /* text-align: center; */
     font-size: 2em;
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    width: 100%;
 }
 .galleryContainer .gallerySort .buttonSelect{
     display: flex;
@@ -42,7 +43,7 @@
     color: var(--white);
 }  */
 .galleryImg{
-    width:100vw;
+    width:100%;
 }
 .galleryImg .img{
     width: 100vw;
