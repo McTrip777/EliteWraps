@@ -53,3 +53,13 @@
         font-size: .8em;
     }
 }
+@media(max-width: 500px){
+    .galleryContainer .gallerySort{
+        font-size: .6em;
+        width: 80%;
+        margin: auto;
+    }
+    .allText{
+        padding: 0;
+    }
+}
