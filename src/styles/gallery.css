@@ -1,6 +1,6 @@
 .galleryContainer{
     width: 100vw;
-    padding-top: 6em;
+    /* padding-top: 6em; */
     /* min-height: 80vh; */
     /* position: relative; */
     background-color: var(--darkblue);

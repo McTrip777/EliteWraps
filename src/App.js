@@ -9,10 +9,12 @@ import Footer from './components/Footer'
 import About from './components/About'
 // import { FormspreeProvider } from '@formspree/react';
 import "./App.css"
+import UnderProduction from './components/UnderProduction'
 const App = () => {
   return (
     <div className="container">
       <Navbar />
+      <UnderProduction/>
       <Routes className="routes">
         <Route path="/contact" element={<Contact/>} />
         <Route path="/gallery" element={<Gallery/>} />
