@@ -27,12 +27,11 @@ import com20 from "../images/commercial/com20.jpeg"
 import com21 from "../images/commercial/com21.jpeg"
 import com22 from "../images/commercial/com22.jpeg"
 import com23 from "../images/commercial/com23.jpeg"
+import com24 from "../images/color/color3.jpeg"
 
 // COLOR
 import color1 from "../images/color/color1.jpeg"
 import color2 from "../images/color/color2.jpeg"
-import color3 from "../images/color/color3.jpeg"
-import color4 from "../images/color/color4.jpeg"
 import color5 from "../images/color/color5.jpeg"
 import color6 from "../images/color/color6.jpeg"
 import color7 from "../images/color/color7.jpeg"
@@ -72,13 +71,12 @@ export const Images = [
     { img: com22, type: "Commercial", alt: "Commercial Wrap" },
     { img: com23, type: "Commercial", alt: "Commercial Wrap" },
     { img: truck, type: "Commercial", alt: "Commercial Wrap" },
+    { img: com24, type: "Commercial", alt: "Commercial Wrap" },
 
     // Color
     { img: porche, type: "Color", alt: "Porche white Wrap" },
     { img: color1, type: "Color", alt: "color Wrap" },
     { img: color2, type: "Color", alt: "color Wrap" },
-    { img: color3, type: "Color", alt: "color Wrap" },
-    { img: color4, type: "Color", alt: "color Wrap" },
     { img: color5, type: "Color", alt: "color Wrap" },
     { img: color6, type: "Color", alt: "color Wrap" },
     { img: color7, type: "Color", alt: "color Wrap" },

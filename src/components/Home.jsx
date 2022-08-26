@@ -25,7 +25,10 @@ const Home = () => {
             <Carousel/>
             <section className='wrapInfo text'>
                 <h4 className="q1 title">So why get a wrap?</h4>
-                <p className="a1 content"></p>
+                <p className="a1 content">A branded wrap is like a salesman that never quits.
+                    <br/>A billboard that can't be missed.
+                    <br/>"No Doubt, You Stand Out"
+                </p>
             </section>
 
         </div>

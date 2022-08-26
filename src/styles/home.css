@@ -104,14 +104,11 @@
     color: var(--darkblue);
 }
 .homeContainer .text .content{
-    font-size: 1.6em;
+    font-size: 2em;
     color: var(--darkblue);
     padding: .5em 1em;
 }
 
-@media(max-width: 1200px){
-
-}
 @media(max-width: 800px){
     .homeContainer .text{
         line-height: 30px;
