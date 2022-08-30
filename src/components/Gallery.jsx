@@ -19,36 +19,36 @@ const Gallery = () => {
           <BackToTop/>
             <div className="gallerySort">
                 <section className={type === 'All' ? "buttonSelect active" : "buttonSelect"} onClick={setToAll}>
-                    <button className="allText">All</button>
-                    {type === "All" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
+                    <button className="allText typeSelected">All</button>
+                    {/* {type === "All" ? <button className="allText typeSelected">All</button> : <button className="allText">All</button>} */}
                 </section>
                 <section className={type === 'Commercial' ? "buttonSelect active" : "buttonSelect"} onClick={setToCommercial}>
-                    <button className="commercialText">Commercial</button>
-                    {type === "Commercial" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
+                <button className="commercialText typeSelected">Commercial</button>
+                    {/* {type === "Commercial" ? <button className="commercialText typeSelected">Commercial</button> : <button className="commercialText">Commercial</button>} */}
                 </section>
                 <section className={type === 'Wall' ? "buttonSelect active" : "buttonSelect"} onClick={setToWall}>
-                    <button className="wallText">Wall</button>
-                    {type === "Wall" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
+                    <button className="wallText typeSelected">Wall</button>
+                    {/* {type === "Wall" ? <button className="wallText typeSelected">Wall</button> : <button className="wallText">Wall</button>} */}
                 </section>
                 <section className={type === 'Color' ? "buttonSelect active" : "buttonSelect"} onClick={setToColor}>
-                    <button className="colorText">Personal</button>
-                    {type === "Color" ? <i class="fas fa-circle"></i> : <i className="far fa-circle"></i>}
+                    <button className="colorText typeSelected">Personal</button>
+                    {/* {type === "Color" ? <button className="colorText typeSelected">Personal</button> : <button className="colorText">Personal</button>} */}
                 </section>
             </div>
-
-            {Images.map((img, index) => {
-                if (type === Images[index].type || type === "All") val = true
-                if (val === false && index === Images.length - 1) {
-                    return <h4>No Images at this time.</h4>
-                }
-                return (
-                    <div className={type === Images[index].type || type === "All" ? "galleryImg active" : "galleryImg"} key={index}>
-                        {type === "All" && <img src={img.img} alt="vehicles" className="img" />}
-                        {type === Images[index].type && (<img src={img.img} alt={img.alt} className="img" />)}
-                    </div>
-                )
-            })}
-
+            <div className='imgContainer'>
+                {Images.map((img, index) => {
+                    if (type === Images[index].type || type === "All") val = true
+                    if (val === false && index === Images.length - 1) {
+                        return <h4>No Images at this time.</h4>
+                    }
+                    return (
+                        <div className={type === Images[index].type || type === "All" ? "activegalleryImg" : "galleryImg"} key={index}>
+                            {type === "All" && <img src={img.img} alt="vehicles" className="img" />}
+                            {type === Images[index].type && (<img src={img.img} alt={img.alt} className="img" />)}
+                        </div>
+                    )
+                })}
+            </div>
             {/* I'm Sorry, this page is down right now. <br/><br/>Check back later. */}
         </div>
     )
