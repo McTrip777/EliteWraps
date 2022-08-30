@@ -27,7 +27,8 @@ import com20 from "../images/commercial/com20.jpeg"
 import com21 from "../images/commercial/com21.jpeg"
 import com22 from "../images/commercial/com22.jpeg"
 import com23 from "../images/commercial/com23.jpeg"
-import com24 from "../images/color/color3.jpeg"
+import com24 from "../images/commercial/com24.jpeg"
+import com25 from "../images/commercial/com25.jpeg"
 
 // COLOR
 import color1 from "../images/color/color1.jpeg"
@@ -41,6 +42,7 @@ import wall1 from "../images/wall/wall1.jpeg"
 import wall2 from "../images/wall/wall2.jpeg"
 import wall3 from "../images/wall/wall3.jpeg"
 import wall4 from "../images/wall/wall4.jpeg"
+import wall5 from "../images/wall/wall5.jpeg"
 
 export const Images = [
     { img: jeep, type: "Color", alt: "Jeep Color Wrap" },
@@ -71,7 +73,8 @@ export const Images = [
     { img: com22, type: "Commercial", alt: "Commercial Wrap" },
     { img: com23, type: "Commercial", alt: "Commercial Wrap" },
     { img: truck, type: "Commercial", alt: "Commercial Wrap" },
-    { img: com24, type: "Commercial", alt: "Commercial Wrap" },
+    // { img: com24, type: "Commercial", alt: "Commercial Wrap" },
+    { img: com25, type: "Commercial", alt: "Commercial Wrap" },
 
     // Color
     { img: porche, type: "Color", alt: "Porche white Wrap" },
@@ -86,6 +89,7 @@ export const Images = [
     { img: wall2, type: "Wall", alt: "wall Wrap" },
     { img: wall3, type: "Wall", alt: "wall Wrap" },
     { img: wall4, type: "Wall", alt: "wall Wrap" },
+    { img: wall5, type: "Wall", alt: "wall Wrap" },
 ]
 
 export const CarouselImages = [
