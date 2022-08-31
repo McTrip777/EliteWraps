@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Images } from './ImgData'
 import "../styles/gallery.css"
 import BackToTop from './BackToTop'
+import {Helmet} from "react-helmet"
 
 const Gallery = () => {
 
