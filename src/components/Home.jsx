@@ -5,10 +5,18 @@ import "../styles/home.css"
 import mustang from '../images/mustangWrap.jpeg'
 import Carousel from './Carousel'
 import logo from '../images/LogoBlack.png'
+import {Helmet} from 'react-helmet'
 
 const Home = () => {
     return (
         <div className="homeContainer">
+            <Helmet>
+                <title>The best vehicle wrap around, with decades of experice - Elite Wraps</title>
+                <meta 
+                    name='description'
+                    content="Wrapping a vehicle takes a certain skill that we have spent many years perfecting to give you the look that you desire."
+                />
+            </Helmet>
             <img src={mustang} alt="ford mustang wrap" />
             <header className="head">
                 {/* <h2 className="headTitle">Elite Wraps</h2> */}

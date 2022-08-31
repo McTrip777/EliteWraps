@@ -16,6 +16,13 @@ const Gallery = () => {
 
     return (
         <div className="galleryContainer">
+            <Helmet>
+                <title>Browse through all kinds of vehicle wraps.</title>
+                <meta 
+                    name='description'
+                    content='This is our work gallery where all the vehicles we have wrapped go, take a look around and reach out if you have questions.'
+                />
+            </Helmet>
           <BackToTop/>
             <div className="gallerySort">
                 <section className={type === 'All' ? "buttonSelect active" : "buttonSelect"} onClick={setToAll}>

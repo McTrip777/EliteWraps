@@ -1,10 +1,18 @@
 import React from 'react'
 import FAQ from './FAQ'
 import "../styles/about.css"
+import {Helmet} from 'react-helmet'
 
 const About = () => {
   return (
     <div className='aboutContainer'>
+        <Helmet>
+            <title>What is a vehicle wrap and why should you get one?</title>
+            <meta 
+                name='description'
+                content='View the most commonly asked questions when it comes to vehicle wraps or get in contact and we will answer any questions you have'
+            />
+        </Helmet>
         <h2 className='aboutTitle'>About Us</h2>
         <p>
             Elite Wraps is a family owned operation here in the Treasure Valley 
