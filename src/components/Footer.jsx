@@ -15,7 +15,7 @@ function Footer() {
                 <div className="foo footerContact">
                     <h4>Contact Us</h4>
                     <a className="number" href="tel:+12086177722">(208) 617-7722</a>
-                    <a className="email" href="mailto:thomas@elitewraps.com">Thomas@EliteWraps.com</a>
+                    <a className="email" href="mailto:service@elitewraps.com">Service@EliteWraps.com</a>
                     <div className="socials">
                         {/* <a href="https://www.facebook.com/twrapsofboise" target="_blank"><i className="fab fa-facebook fa-2x"></i></a>
                         <a href="https://www.instagram.com/twrapsofboise/" target="_blank"><i className="fab fa-instagram fa-2x"></i></a> */}
