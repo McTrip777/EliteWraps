@@ -1,0 +1,57 @@
+.notFoundContainer{
+    width:100vw;
+    margin: 7em auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height:60vh;
+    background: var(--black);
+    color: white;
+}
+
+.notFoundContainer h1{
+    font-size: 3.5em;
+}
+
+.notFoundContainer h4{
+    font-size: 2em;
+}
+
+.notFoundContainer a{
+    font-size: 2em;
+    text-decoration: none;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.notFoundContainer a:hover{
+    font-size: 2em;
+    text-decoration: underline;
+    color: var(--darkblue);
+    cursor: pointer;
+}
+
+@media (max-width:800px){
+
+    .notFoundContainer h1{
+        font-size: 2.5em;
+    }
+    
+    .notFoundContainer h4{
+        font-size: 1.5em;
+    }
+    
+    .notFoundContainer a{
+        font-size: 1.5em;
+        text-decoration: none;
+        color: var(--blue);
+        cursor: pointer;
+    }
+    
+    .notFoundContainer a:hover{
+        font-size: 1.5em;
+        text-decoration: underline;
+        color: var(--darkblue);
+        cursor: pointer;
+    }
+}

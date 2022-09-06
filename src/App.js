@@ -1,25 +1,28 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-// import Canvas from './components/Canvas'
 import Contact from './components/Contact'
 import Gallery from './components/Gallery'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Footer from './components/Footer'
 import About from './components/About'
-// import { FormspreeProvider } from '@formspree/react';
-import "./App.css"
+import NotFound from './components/NotFound'
 import UnderProduction from './components/UnderProduction'
+import "./App.css"
+// import { FormspreeProvider } from '@formspree/react';
+
+
 const App = () => {
   return (
     <div className="container">
       <Navbar />
-      <UnderProduction/>
+      {/* <UnderProduction/> */}
       <Routes className="routes">
         <Route path="/contact" element={<Contact/>} />
         <Route path="/gallery" element={<Gallery/>} />
         <Route path="/about" element={<About/>} />
         <Route path="/" element={<Home/>} />
+        <Route path="*" element={<NotFound/>} />
       </Routes>
       <Footer />
     </div>
