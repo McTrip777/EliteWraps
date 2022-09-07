@@ -40,7 +40,7 @@
     letter-spacing: .1em;
     color:var(--blue);
 }
-.footerContainer .footer .footerContact .number{
+.footerContainer .footer .footerContact .footerNumber{
     margin:.5em 0;
     color: white;
     text-decoration: none;
