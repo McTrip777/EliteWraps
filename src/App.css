@@ -3,6 +3,7 @@
   font-family: 'Righteous', cursive;
   /* height: 200vh; */
   width: 100vw;
+  margin: 8em auto auto auto;
 }
 .container .routes{
   margin-top: 7em;

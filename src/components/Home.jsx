@@ -19,7 +19,7 @@ const Home = () => {
             </Helmet>
             <img src={mustang} alt="ford mustang wrap" />
             <header className="head">
-                {/* <h2 className="headTitle">Elite Wraps</h2> */}
+                <h2 className="headTitle">Best Vehicle Wraps in Boise</h2>
                 {/* <img className='headImg' src={logo} alt="Elite Wraps Logo"/> */}
                 <Link to="/contact" className="titleButton" >Get a Quote</Link>
             </header>
