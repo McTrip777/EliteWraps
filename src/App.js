@@ -9,10 +9,14 @@ import About from './components/About'
 import NotFound from './components/NotFound'
 import UnderProduction from './components/UnderProduction'
 import "./App.css"
+import UseRedirectToHttps from './components/UseRedirectToHttps'
 // import { FormspreeProvider } from '@formspree/react';
 
 
 const App = () => {
+  
+  UseRedirectToHttps();
+
   return (
     <div className="container">
       <Navbar />
