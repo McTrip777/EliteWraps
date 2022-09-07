@@ -42,7 +42,7 @@
     /* display: flex;
     align-items: center; */
 }
-.number{
+.navNumber{
     text-decoration: none;
     font-size: 1.5em;
     color: white;
@@ -90,7 +90,7 @@
         height: 2.5em;
         padding: 1em;
     }
-    .number{
+    .navNumber{
         text-decoration: none;
         font-size: 1.2em;
         color: white;
@@ -111,7 +111,7 @@
     }
 }
 @media (max-width:500px){
-    .number{
+    .navNumber{
         right:2em;
     }
     .homeLogo{

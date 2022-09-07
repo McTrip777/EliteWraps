@@ -126,7 +126,7 @@ form{
     margin: 3em 1em 1em 1em;
 }
 .SuccessfulForm .number{
-    color:#008a00;
+    color: var(--blue);
     font-size: 2.5em;
     cursor: pointer;
 }
