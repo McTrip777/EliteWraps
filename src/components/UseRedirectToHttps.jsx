@@ -6,7 +6,7 @@ const UseRedirectToHttps = () => {
     useEffect(() => {
         
         if (window.location.protocol!=="https:") {
-            window.location.replace("https://www.elitewraps.com/"+location.pathname);
+            window.location.replace("https://www.elitewraps.com");
         }
     })
 };
