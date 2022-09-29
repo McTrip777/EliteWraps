@@ -1,9 +1,10 @@
 import React from 'react'
 import '../styles/contact.css'
 import { useForm, ValidationError } from '@formspree/react';
-
+// import { vehicleMakeOptions, vehicleModelOptions } from './VehicleData';
 const Contact = () => {
     const [state, handleSubmit] = useForm("xqkjapej");
+    
     if (state.succeeded) {
         return <div className="SuccessfulForm">
             <p>Your message has gone through successfully. 
@@ -21,14 +22,23 @@ const Contact = () => {
                 <p>Get your free quote today!</p>
             </header>
             <div className="row">
-                <div className="nameAndNumber">
-                    <input className="nameNumber name" id="name" type="name" name="name" placeholder="Name" required autoComplete="off" autoFocus/>
+                <div className="nameAndNumber line">
+                    <input className="inputField name mrgn-right" id="name" type="name" name="name" placeholder="Name" required autoComplete="off" autoFocus/>
                     <ValidationError prefix="Name" field="name" errors={state.errors} />
-                    <input id="number" name="number" type="tel" placeholder="(###) ###-####" className="nameNumber" autoComplete="off" />
+                    <input id="number" name="number" type="tel" placeholder="(###) ###-####" className="inputField number" autoComplete="off" />
+                </div>
+                <div className="MakeModelYearColor line">
+                    <div className='makeAndModel vehicleInputs'>
+                        <input className="make inputField mrgn-right" id="make" type="text" name="make" placeholder="Make" autoComplete="off"/>
+                        <input id="model" name="model" type="text" placeholder="Model" className="inputField mrgn-right" autoComplete="off" />
+                    </div>
+                    <div className='yearAndColor vehicleInputs'>
+                        <input Placeholder="Year" className="inputField mrgn-right year" type="number" id="year" name="year" min="1900" max={new Date().getFullYear()}/>
+                        <input Placeholder="Color" className="inputField color" type="text" id="color" name="color"/>
+                    </div>
                 </div>
                 <div className="emailMessage">
-                    <input
-                        className="subMessage email" id="email" type="email" name="email" placeholder="Email" required autoComplete="off" />
+                    <input className="subMessage email" id="email" type="email" name="email" placeholder="Email" required autoComplete="off" />
                     <ValidationError prefix="Email" field="email" errors={state.errors} />
                     <textarea id="message" type="text" name="message" placeholder="Message" className="subMessage" required autoComplete="off" />
                     <ValidationError prefix="Message" field="message" errors={state.errors} />

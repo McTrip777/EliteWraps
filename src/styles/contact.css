@@ -31,32 +31,35 @@ form{
     align-items: center;
     width:80%;
 }
-.nameAndNumber{
+.line{
     display: flex;
     width:100%;
-    position: relative;
 }
-.nameAndNumber p{
+.line p{
     color: rgb(128, 0, 0);
     font-size: 1.5em;
     position: absolute;
     left: -10px;
 }
-.nameAndNumber .nameNumber{
+.line .inputField{
     padding:1em;
     width:100%;
     background-color: rgba(68,68,68, .9);
     color: var(--blue);
     margin:0 0 2em 0;
 }
-.nameNumber::placeholder {
+.inputField::placeholder {
     color: var(--blue);
 }
-.nameNumber:focus {
+.inputField:focus {
     outline: 2px solid var(--blue);
 }
-.nameAndNumber .name{
+.line .mrgn-right{
     margin-right: 1em;
+}
+.vehicleInputs{
+    display: flex;
+    width: 100%;
 }
 .emailMessage{
     position: relative;
@@ -129,4 +132,20 @@ form{
     color: var(--blue);
     font-size: 2.5em;
     cursor: pointer;
+}
+
+@media(max-width: 800px){
+    .MakeModelYearColor{
+        display: flex;
+        flex-direction: column;
+    }
+    .MakeModelYearColor .vehicleInputs .mrgn-right {
+        margin-right: 0;
+    }
+    .MakeModelYearColor .vehicleInputs .make {
+        margin-right: 1em;
+    }
+    .MakeModelYearColor .vehicleInputs .year {
+        margin-right: 1em;
+    }
 }
