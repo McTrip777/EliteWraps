@@ -27,7 +27,7 @@ const Home = () => {
                 <h4 className="aboutEW title">Why Us?</h4>
                 <p className="aboutText content">We are a local, family owned and operated business with decades 
                 of joint experience. We can assure you that you will receive nothing but 
-                the best experience and quality service. We pride ourselves on honesty and integity 
+                the best experience and quality service. We pride ourselves on honesty and integrity 
                 with every job.</p>
             </section>
             <Carousel/>
