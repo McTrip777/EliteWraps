@@ -1,0 +1,32 @@
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: fixed;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.498);
+    display: flex;
+    top: 0;
+}
+.imageStyle{
+    width: 65%;
+    /* background-color: black; */
+    display: flex;
+    align-self: center;
+    margin:auto;
+    padding-top: 3em;
+}
+
+/* Scroll through enlarged images  */
+/* .rotationArrow{
+    width: 1.5em;
+    position: fixed;
+    z-index: 100;
+    top: 45%;
+}
+.right{
+    right: 5%;
+}
+.left{
+    left: 5%;
+} */
