@@ -33,8 +33,8 @@ const Contact = () => {
                         <input id="model" name="model" type="text" placeholder="Model" className="inputField mrgn-right" autoComplete="off" />
                     </div>
                     <div className='yearAndColor vehicleInputs'>
-                        <input Placeholder="Year" className="inputField mrgn-right year" type="number" id="year" name="year" min="1900" max={new Date().getFullYear()}/>
-                        <input Placeholder="Color" className="inputField color" type="text" id="color" name="color"/>
+                        <input placeholder="Year" className="inputField mrgn-right year" type="number" id="year" name="year" min="1900" max={new Date().getFullYear()}/>
+                        <input placeholder="Color" className="inputField color" type="text" id="color" name="color"/>
                     </div>
                 </div>
                 <div className="emailMessage">
