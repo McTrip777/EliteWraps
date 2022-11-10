@@ -38,7 +38,7 @@
 }
 .homeLogo img{
     /* margin:2em 0 2em 2em  */
-    height: 2.5em;
+    height: 3em;
     /* display: flex;
     align-items: center; */
 }
@@ -87,7 +87,7 @@
         padding-left: 0;
     }
     .homeLogo img{
-        height: 2.5em;
+        height: 3em;
         padding: 1em;
     }
     .navNumber{

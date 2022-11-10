@@ -19,10 +19,10 @@ const Gallery = () => {
     const {height, width} = useWindowDimensions();
 
     const [clickedImg, setClickedImg] = useState(null);
-    const [currentIndex, setCurrentIndex] = useState(null);
+    // const [currentIndex, setCurrentIndex] = useState(null);
 
     const handleClick = (item, index) => {
-        setCurrentIndex(index);
+        // setCurrentIndex(index);
         setClickedImg(item.img)
     }
 
