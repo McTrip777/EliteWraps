@@ -15,7 +15,8 @@ import UseRedirectToHttps from './components/UseRedirectToHttps'
 
 const App = () => {
   
-  UseRedirectToHttps();
+  
+  // UseRedirectToHttps();
 
   return (
     <div className="container">
