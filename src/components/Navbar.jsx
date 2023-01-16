@@ -28,7 +28,7 @@ function Navbar() {
             <Link className="homeLogo" to="/">
                 <img src={logo} alt="Elite Wraps Logo"/>
             </Link>
-            <a className="navNumber" href="tel:+12086177722">(208) 617-7722</a>
+            <a className="navNumber" href="tel:+12086267699">(208) 626-7699</a>
             <div className="navbarRoutes">
                 <Link to="/">Home</Link>
                 <Link to="/gallery">Gallery</Link>

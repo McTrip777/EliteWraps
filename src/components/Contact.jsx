@@ -1,18 +1,8 @@
 import React from 'react'
 import '../styles/contact.css'
-// import { vehicleMakeOptions, vehicleModelOptions } from './VehicleData';
+
 const Contact = () => {
-    // const [state, handleSubmit] = useForm("xqkjapej");
-    
-    // if (state.succeeded) {
-    //     return <div className="SuccessfulForm">
-    //         <p>Your message has gone through successfully. 
-    //             We will get back to you within 1-3 bussiness days. 
-    //             <br /> If you would like to speak to someone sooner, please call</p>
-    //         <a className="number" href="tel:+12086177722">(208) 617-7722</a>
-    //         <p>Have a wonderful day!</p>
-    //     </div>;
-    // }
+
     return (
         <form action="https://formkeep.com/f/c12d47fe0691"
             accept-charset="UTF-8"
